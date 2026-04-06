@@ -45,7 +45,7 @@ export const PasswordService = ({password}) => {
         if(!password) return {strength : "Very Low" , color : "gray"}
         else if(score <= 2) return {strength : "Low" , color : "red"}
         else if(score <= 5) return {strength : "Medium" , color : "yellow"}
-        else if (score == 6) return {strength : "High" , color : "green"}
+        else return {strength : "High" , color : "green"}
     }
 
     return {rules , score , ...getStrength()}
