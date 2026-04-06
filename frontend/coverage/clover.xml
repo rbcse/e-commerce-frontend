@@ -1,19 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1775363608984" clover="3.2.0">
-  <project timestamp="1775363608984" name="All files">
-    <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="3" coveredelements="3" complexity="0" loc="2" ncloc="2" packages="2" files="2" classes="2"/>
+<coverage generated="1775444374575" clover="3.2.0">
+  <project timestamp="1775444374575" name="All files">
+    <metrics statements="91" coveredstatements="78" conditionals="28" coveredconditionals="18" methods="42" coveredmethods="34" elements="161" coveredelements="130" complexity="0" loc="91" ncloc="91" packages="5" files="8" classes="8"/>
     <package name="assets.data">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="countries.json" path="C:\Users\91941\Desktop\e-commerce\e-commerce-frontend\frontend\src\assets\data\countries.json">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
+    <package name="components.Signup.hooks">
+      <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10"/>
+      <file name="UseSignup.jsx" path="C:\Users\91941\Desktop\e-commerce\e-commerce-frontend\frontend\src\components\Signup\hooks\UseSignup.jsx">
+        <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="10" coveredmethods="10"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="20" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="18" count="20" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="20" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="29" count="20" type="stmt"/>
+        <line num="30" count="80" type="stmt"/>
+        <line num="31" count="80" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="20" type="stmt"/>
+        <line num="37" count="40" type="stmt"/>
+        <line num="41" count="20" type="stmt"/>
+        <line num="49" count="20" type="stmt"/>
+        <line num="50" count="20" type="stmt"/>
+        <line num="51" count="20" type="stmt"/>
+        <line num="52" count="20" type="stmt"/>
+        <line num="56" count="20" type="stmt"/>
+        <line num="63" count="20" type="stmt"/>
+        <line num="64" count="19" type="stmt"/>
+        <line num="65" count="19" type="stmt"/>
+        <line num="72" count="20" type="cond" truecount="4" falsecount="0"/>
+        <line num="74" count="20" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="93" count="20" type="stmt"/>
+      </file>
+    </package>
     <package name="components.Signup.services">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="39" coveredstatements="39" conditionals="8" coveredconditionals="8" methods="24" coveredmethods="24"/>
       <file name="CountryService.jsx" path="C:\Users\91941\Desktop\e-commerce\e-commerce-frontend\frontend\src\components\Signup\services\CountryService.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="PasswordService.jsx" path="C:\Users\91941\Desktop\e-commerce\e-commerce-frontend\frontend\src\components\Signup\services\PasswordService.jsx">
+        <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="37" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="36" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="45" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+      </file>
+      <file name="SignupService.jsx" path="C:\Users\91941\Desktop\e-commerce\e-commerce-frontend\frontend\src\components\Signup\services\SignupService.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="ValidationService.jsx" path="C:\Users\91941\Desktop\e-commerce\e-commerce-frontend\frontend\src\components\Signup\services\ValidationService.jsx">
+        <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="46" count="6" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="63" count="15" type="stmt"/>
+        <line num="64" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="config">
+      <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+      <file name="env-config.jsx" path="C:\Users\91941\Desktop\e-commerce\e-commerce-frontend\frontend\src\config\env-config.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="20" coveredstatements="7" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="apiService.jsx" path="C:\Users\91941\Desktop\e-commerce\e-commerce-frontend\frontend\src\services\apiService.jsx">
+        <metrics statements="20" coveredstatements="7" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="38" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="56" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
       </file>
     </package>
   </project>
